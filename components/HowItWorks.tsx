@@ -21,6 +21,7 @@ const steps = [
   },
 ];
 
+
 export default function HowItWorks() {
   return (
     <section className="w-full py-20 bg-black">
