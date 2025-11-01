@@ -13,9 +13,9 @@ import {
 } from "@/components/ui/carousel";
 
 const images = [
-  { src: "/images/useCase1.png", alt: "SETZ on Bench Press", label: "Bench Mode" },
-  { src: "/images/useCase2.png", alt: "SETZ on Squat Rack", label: "Squat Mode" },
-  { src: "/images/useCase3.png", alt: "SETZ on Cable Machine", label: "Cable Mode" },
+  { src: "/images/usageBench.png", alt: "SETZ on Bench Press", label: "Bench Mode" },
+  { src: "/images/usageSquat.png", alt: "SETZ on Squat Rack", label: "Squat Mode" },
+  { src: "/images/usageCable.png", alt: "SETZ on Cable Machine", label: "Cable Mode" },
 ];
 
 export default function UsageCarousel() {
