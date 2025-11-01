@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function AnatomySection() {
   return (
     <section
-      id="anatomy"
+      id="features"
       className="relative w-full bg-gray-50 flex items-center justify-center py-16 px-6 md:py-28"
     >
       <div className="max-w-6xl w-full flex flex-col items-center justify-center text-center">
