@@ -1,14 +1,17 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Twitter, Facebook, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-12 ">
+    <footer className="bg-black text-white py-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
+
         {/* Top Section */}
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
+
           {/* Brand */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -16,7 +19,19 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
             className="text-center md:text-left"
           >
-            <h2 className="text-3xl font-bold tracking-wide mb-2">SETZ</h2>
+
+            
+            <div className="flex items-center justify-center md:justify-start  mb-3">
+              <Image
+                src="/images/setzTestlogo2.png"   
+                alt="SETZ Logo"
+                width={80}
+                height={60}
+                className="object-contain"
+              />
+              <h2 className="text-3xl font-bold tracking-wide">SETZ</h2>
+            </div>
+
             <p className="text-white/60 text-sm max-w-xs">
               Precision meets performance — redefining smart fitness design.
             </p>

@@ -57,11 +57,11 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center mr-0 ">
             <Image
-              src="/images/setzTestlogo.png"
+              src="/images/setzTestlogo2.png"
               alt="SETZ"
               width={80}
               height={60}
-              className="object-cover self-end rounded-full "
+              className="object-cover self-center rounded-full "
             />
             <span className="text-xl font-semibold text-slate-900">
               SETZ
