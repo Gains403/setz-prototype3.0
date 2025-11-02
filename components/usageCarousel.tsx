@@ -14,8 +14,8 @@ import {
 
 const images = [
   { src: "/images/usageBench.png", alt: "SETZ on Bench Press", label: "Bench Mode" },
-  { src: "/images/usageSquat.png", alt: "SETZ on Squat Rack", label: "Squat Mode" },
-  { src: "/images/usageCable.png", alt: "SETZ on Cable Machine", label: "Cable Mode" },
+  { src: "/images/squatRack.png", alt: "SETZ on Squat Rack", label: "Squat Mode" },
+  { src: "/images/BenchPress.png", alt: "SETZ on Cable Machine", label: "Cable Mode" },
 ];
 
 export default function UsageCarousel() {
@@ -56,7 +56,7 @@ export default function UsageCarousel() {
           <CarouselContent>
             {images.map((img, i) => (
               <CarouselItem key={i}>
-                <div className="relative w-full aspect-[16/9] overflow-hidden rounded-2xl">
+                <div className="relative w-full aspect-[4/5] md:aspect-[16/9] overflow-hidden rounded-2xl">
                   <Image
                     src={img.src}
                     alt={img.alt}
